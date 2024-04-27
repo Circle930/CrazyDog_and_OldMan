@@ -2,7 +2,7 @@
 Page({
     //允许接收服务通知
     async requestSubscribeMessage() {
-        const templateId = 'R5sHALA7TKs6jCyH_kwNr9l8vVfWKCU5cXQnFKWlwfA'//填入你自己想要的模板ID，记得复制粘贴全，我自己因为网页没开全，结果浪费半小时
+        const templateId = '9KhKI2PsiF_EUJbohsPrjGEO9TmlSZ8MNeTYVo8LZbQ'//填入你自己想要的模板ID，记得复制粘贴全，我自己因为网页没开全，结果浪费半小时
         wx.requestSubscribeMessage({
         //tmplIds: [templateId,templateId2,templateId3],
         tmplIds: [templateId],
