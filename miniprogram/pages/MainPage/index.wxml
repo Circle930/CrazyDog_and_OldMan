@@ -1,9 +1,9 @@
 <view style="width:100%; background: none;">
 
   <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="background: white; height: 300px; width: 100%">
-      <swiper-item><image style="position: relative; left: 0rpx; top: 100rpx" src="Images/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image style="width: 750rpx; height: 400rpx; display: block; box-sizing: border-box; left: 0rpx; top: 60rpx; position: relative" src="Images/HomeCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image style="position: relative; left: 0rpx; top: 60rpx" src="Images/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image style="position: relative; left: 0rpx; top: 0rpx" src="Images/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image style="width: 750rpx; height: 400rpx; display: block; box-sizing: border-box; left: 0rpx; top: -85rpx; position: relative" src="Images/HomeCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image style="position: relative; left: 0rpx; top: -82rpx" src="Images/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
   </swiper>
 
 <view class="form-group_label">💰 积分榜</view>

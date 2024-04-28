@@ -6,10 +6,7 @@
   <view class="subtitle">好像什么商品也没有...</view>
 </view>
 
-<view wx:if="{{allItems.length > 0}}" class="page-title" style="position: fixed; left: 0rpx; top: 486rpx; width: 750rpx; height: 58rpx; display: block; box-sizing: border-box">
-    <div style="position: absolute; top: 5px; left: 10px;">欢迎来到商城, {{user}}!</div>
-    <div style="position: absolute; top: 5px; right: 10px;">💰{{credit}} 积分</div>
-</view>
+
 
 <swiper wx:if="{{allItems.length > 0}}" indicator-dots="true" autoplay="true" interval="2000" duration="500" 
 style="background: white; height: 300px; width: 100%">
