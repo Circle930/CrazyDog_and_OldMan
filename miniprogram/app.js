@@ -18,7 +18,7 @@ App({
       collectionUserList: 'UserList',
 
       //最多单次交易积分
-      maxCredit: 30,
+      maxCredit: 20,
     }
   },
 
