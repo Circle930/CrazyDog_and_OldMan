@@ -12,7 +12,7 @@ Page({
       //data是用来传给云函数event的数据，你可以把你当前页面获取消息填写到服务通知里面
       data: {
           action: 'sendSubscribeMessage',
-          templateId: 'R5sHALA7TKs6jCyH_kwNr9l8vVfWKCU5cXQnFKWlwfA',//这里我就直接把模板ID传给云函数了
+          templateId: 'z_L1vpZ_TYLl7RdCw8jw6OGqSHYioXqoVsted7RVgbU',//这里我就直接把模板ID传给云函数了
           me:'Test_me',
           name:'Test_activity',
           _openid:'odPPg4mBicTjUXPX29A3KIzu5kYc'//填入自己的openid
@@ -75,7 +75,7 @@ Page({
     },{
       name:"买小礼物",
       title:"整点小礼物",
-      desc:"买点小礼物，像泡泡马特什么的。",
+      desc:"买点小礼物，像小马宝莉什么的。",
     },{
       name:"洗碗洗碟",
       title:"这碗碟我洗了",
